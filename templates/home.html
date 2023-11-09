@@ -15,18 +15,14 @@
             padding: 0;
         }
 
-        header {
-            text-align: left;
-            background-color: lightblue;
-            padding: 5px;
-        }
+       
 
         header h2 {
             font-family: 'Times New Roman';
             color: black;
             font-weight: normal;
             font-size: 50px;
-            text-align: center;
+            text-align:left;
         }
 
         h1 {
@@ -42,25 +38,7 @@
             padding: 10px 0;
         }
 
-        .button {
-            background-color: lightcyan;
-            border: 2px solid #4CAF50;
-            border-radius: 12px;
-            color: black;
-            padding: 10px 20px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-            margin: 4px 2px;
-            transition-duration: 0.4s;
-            cursor: pointer;
-        }
-
-        .button:hover {
-            background-color: grey;
-            color: white;
-        }
+        
 
         .profile-img {
             float: left;
@@ -106,16 +84,10 @@
 </head>
 
 <body>
+  {% include "nav.html" %}
     <header>
-        <h2>Welcome To My Portfolio</h2>
-        <nav>
-            <button class="button">Home</button>
-            <button class="button">About Me</button>
-            <button class="button">Skills</button>
-            <button class="button">Resume</button>
-            <button class="button">Education</button>
-            <button class="button">Contact</button>
-        </nav>
+       
+      
     </header>
 
     <img class="profile-img" src="https://website-1--pruthvikotur7.repl.co/static/photo%207.jpg" height="380" width="380">
@@ -127,6 +99,8 @@
     <a href="https://www.linkedin.com/in/pruthvi-kotur-538aa6274?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="fa fa-linkedin"></a>
     <a href="https://instagram.com/pruthvi_kotur?igshid=MWp2anVxdmw4aXJ3eQ==" class="fa fa-instagram"></a>
     <a href="https://www.facebook.com/pruthvi.kotur" class="fa fa-facebook"></a>
+
+
 </body>
 
 </html>
