@@ -14,15 +14,21 @@
             margin: 0;
             padding: 0;
         }
+      p{
+        font-family: 'Times New Roman';
+        color: black;
+        font-weight: normal;
+        font-size: 20px;
+      }
 
        
 
-        header h2 {
+       h2 {
             font-family: 'Times New Roman';
             color: black;
             font-weight: normal;
             font-size: 50px;
-            text-align:left;
+            text-align:center;
         }
 
         h1 {
@@ -55,7 +61,7 @@
             margin: 10px;
             border-radius: 50%;
             position: relative;
-            left: 200px;
+            left: 210px;
         }
 
         .fa:hover {
@@ -84,12 +90,9 @@
 </head>
 
 <body>
+  <div class="container">
   {% include "nav.html" %}
-    <header>
-       
-      
-    </header>
-
+    
     <img class="profile-img" src="https://website-1--pruthvikotur7.repl.co/static/photo%207.jpg" height="380" width="380">
 
     <br> <br><br> <br> <br> <br>
@@ -99,8 +102,7 @@
     <a href="https://www.linkedin.com/in/pruthvi-kotur-538aa6274?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="fa fa-linkedin"></a>
     <a href="https://instagram.com/pruthvi_kotur?igshid=MWp2anVxdmw4aXJ3eQ==" class="fa fa-instagram"></a>
     <a href="https://www.facebook.com/pruthvi.kotur" class="fa fa-facebook"></a>
-
-
+  </div>
 </body>
 
 </html>
